@@ -1,0 +1,374 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow-x: hidden;
+  background-image: url(../img/main-bkg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  transition: background 0.3s ease-in-out;
+  outline: none !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  transition: background 0.3s ease-in-out;
+  outline: none !important;
+  outline: none !important;
+}
+
+.page-preloader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100000;
+  background: #fff url("../img/pageload-spinner.gif") no-repeat center center;
+}
+
+.bloc {
+  width: 100%;
+  clear: both;
+  background: 50% 50% no-repeat;
+  padding: 0 50px;
+  background-size: cover;
+  position: relative;
+  display: inline-block;
+}
+.bloc .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bloc-lg {
+  padding: 100px 50px;
+}
+
+.bloc-md {
+  padding: 50px 50px;
+}
+
+.full-width-bloc {
+  padding-left: 0;
+  padding-right: 0;
+}
+.full-width-bloc .container {
+  width: 100%;
+  max-width: 100% !important;
+}
+.full-width-bloc .carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.txt-small {
+  font-size: 13px;
+}
+
+.btco-menu li > a {
+  padding: 10px 15px;
+  color: #000;
+}
+.btco-menu li a:focus {
+  background: transparent;
+  outline: 0;
+}
+.btco-menu .active a:focus {
+  background: transparent;
+  outline: 0;
+}
+
+.mg-md {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-d {
+  color: #fff;
+  background: #cefffe;
+  opacity: 0.8;
+}
+.btn-d:hover {
+  color: #fff;
+  background: #cefffe;
+}
+
+.a-block {
+  width: 100%;
+  text-align: left;
+  display: inline-block;
+}
+
+.icon-md {
+  font-size: 30px !important;
+}
+
+iframe {
+  border: 0;
+}
+
+.scroll-fx-in-range {
+  will-change: opacity;
+}
+
+.scrollToTop {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  z-index: 500;
+  transition: all 0.3s ease-in-out;
+}
+.scrollToTop span {
+  margin-top: 6px;
+}
+
+.showScrollTop {
+  font-size: 14px;
+  opacity: 1;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+#topic,
+#content,
+#contact,
+#footer {
+  background: #fff;
+}
+
+#regform {
+  background: #562a83;
+}
+
+#header .header-img-wrap {
+  text-align: center;
+  position: relative;
+  max-width: 760px;
+  margin: 0 auto;
+}
+#header .psc-skype-title {
+  width: 100%;
+}
+#header .psc-skype-package {
+  background: #005de0;
+  color: #fff;
+  display: inline;
+  padding: 10px 25px;
+  font-size: 18px;
+  border-radius: 20px;
+  top: -15px;
+  position: absolute;
+  margin-left: -100px;
+}
+#header p {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  margin-top: -120px;
+  margin-bottom: 40px;
+  z-index: 1;
+}
+#header .btn-regform {
+  background: #FF5800;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 24px;
+  padding: 12px 50px;
+  width: 200px;
+  box-shadow: 0 3px 15px 0px rgba(50, 50, 50, 0.8);
+  z-index: 2;
+}
+#header .btn-regform:hover {
+  background: #ff7933;
+}
+#header .speaker-wrap {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  right: -100px;
+  width: 240px;
+  z-index: 0;
+}
+#header .speaker-wrap img {
+  width: 100%;
+}
+
+#topic h2 {
+  color: #4e4e4e;
+  font-size: 72px;
+  font-weight: 300;
+  text-align: center;
+}
+#topic h2 span {
+  color: #999;
+  font-size: 24px;
+  font-weight: normal;
+}
+#topic h2 .special-bid {
+  font-family: "Arial Black";
+  color: #FF5800;
+  font-size: 72px;
+}
+
+#content h3 {
+  color: #FF5800;
+  font-size: 36px;
+}
+#content h4 {
+  color: #005ddc;
+  font-weight: normal;
+}
+#content ul {
+  display: inline-block;
+  text-align: left;
+}
+#content .btn {
+  background: #fff;
+  border: 1px solid #005ddc;
+  color: #005ddc;
+  font-size: 16px;
+}
+#content .btn:hover {
+  background: #005ddc;
+  color: #fff;
+}
+#content .func-wrap {
+  color: #555;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#content .func-wrap img {
+  width: 160px;
+}
+
+#contact {
+  background: #BCEDFF;
+}
+#contact h5 {
+  color: #555;
+  font-size: 32px;
+  font-weight: normal;
+}
+#contact h5 span {
+  color: #333;
+}
+
+#footer {
+  text-align: center;
+}
+#footer .ms-partner-logo {
+  margin: 0 15px;
+  max-width: 180px;
+}
+#footer .psc-logo {
+  margin: 0 15px;
+  max-width: 360px;
+}
+
+@media (max-width: 1024px) {
+  .bloc {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .bloc.full-width-bloc {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .bloc-tile-2.full-width-bloc .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .bloc-tile-3.full-width-bloc .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .bloc-tile-4.full-width-bloc .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .b-parallax {
+    background-attachment: scroll;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .b-parallax {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 767px) {
+  #topic h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 640px) {
+  .speaker-wrap {
+    display: none;
+  }
+
+  .bloc-md {
+    padding: 20px;
+  }
+
+  #contact h5 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 575px) {
+  #topic h2 {
+    font-size: 32px;
+  }
+  #topic h2 span {
+    font-size: 21px;
+  }
+  #topic h2 .special-bid {
+    font-size: 32px;
+  }
+
+  .footer-link {
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  #content h3 {
+    font-size: 28px;
+  }
+  #content h4 {
+    font-size: 21px;
+  }
+  #content .func-wrap img {
+    width: 120px;
+  }
+
+  #contact {
+    text-align: center;
+  }
+  #contact h5 {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  #contact h5 span {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
